@@ -5,7 +5,7 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 // erc 20 token standard 
 contract Token {
 
-    using SafeMath for uint;
+    using SafeMath for uint256;
 
     //Variables
     string public name = "DNA TOKEN";
